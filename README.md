@@ -38,164 +38,122 @@ Before analysis, the raw data was enhanced by creating additional columns:
     - Month extraction and naming
 - Acts as a cleaned and modeled dataset for analysis
 
-📌 This mirrors a real-world data modeling step before BI reporting.
+This mirrors a real-world data modeling step before BI reporting.
 
-3️⃣ Total Sales Summary
+## 3. Total Sales Summary
+- Pivot table to calculate **Total Revenue**
+- **Total Sales:** ₹268,788.4
 
-Pivot table to calculate Total Revenue
+## 4. Store Contribution Analysis
 
-Total Sales: ₹268,788.4
+**Sheet:** Store contribution
+- Revenue contribution by each store (STO-01 to STO-04)
+- **Top Store:** STO-04
 
-4️⃣ Store Contribution Analysis
+Helps management identify high-performing locations.
 
-Sheet: Store contribution
+## 5. Employee Type Contribution
 
-Revenue contribution by each store (STO-01 to STO-04)
+**Sheet:** Employee type
 
-Top Store: STO-04
+Employee Type	          Revenue Share
+Known Employee	            ~96.7%
+Unknown Employee	          ~3.3%
 
-📌 Helps management identify high-performing locations.
+Indicates that tracked employees drive most revenue.
 
-5️⃣ Employee Type Contribution
+## 6. Promotion vs Non-Promotion Analysis
 
-Sheet: Employee type
+**Sheet:** promo vs noprom
 
-Employee Type	Revenue Share
-Known Employee	~96.7%
-Unknown Employee	~3.3%
+Category	            Revenue
+Promoted	            ₹259,620.3
+Not Promoted	        ₹9,168.1
 
-📌 Indicates that tracked employees drive most revenue.
+Strong evidence that promotions are a major revenue driver.
 
-6️⃣ Promotion vs Non-Promotion Analysis
+## 7. Promotion Impact Analysis
 
-Sheet: promo vs noprom
+**Sheet:** promotion impact
+Compared **Total Revenue** and **Average Order Value**
 
-Category	Revenue
-Promoted	₹259,620.3
-Not Promoted	₹9,168.1
+Category             	Avg Order Value
+Promoted                  	~₹336
+Not Promoted              	~₹286
 
-📌 Strong evidence that promotions are a major revenue driver.
+Promotions increase volume more than ticket size.
 
-7️⃣ Promotion Impact Analysis
+## 8. Monthly Sales Trend
 
-Sheet: promotion impact
+**Sheet:** monthly_sales
+- Month-wise sales trend analysis
+- Peak Month: July
 
-Compared Total Revenue and Average Order Value
+ Reveals seasonality patterns in sales.
 
-Category	Avg Order Value
-Promoted	~₹336
-Not Promoted	~₹286
+## 9. Highest Seasonal Sale
 
-📌 Promotions increase volume more than ticket size.
+**Sheet:** Highest Seasonal Sale
+- Analyzed sales based on Season
+- Compared festive period (Makar Sankranti) vs regular days
 
-8️⃣ Monthly Sales Trend
+Shows how seasonal events impact customer spending.
 
-Sheet: monthly_sales
+## 10. Most Valuable Customer
 
-Month-wise sales trend analysis
-
-Peak Month: July
-
-📌 Reveals seasonality patterns in sales.
-
-9️⃣ Highest Seasonal Sale
-
-Sheet: Highest Seasonal Sale
-
-Analyzed sales based on Season
-
-Compared festive period (Makar Sankranti) vs regular days
-
-📌 Shows how seasonal events impact customer spending.
-
-🔟 Most Valuable Customer
-
-Sheet: most valuable custo
-
+**Sheet:** most valuable custo
 Identified customer contributing the highest total revenue
+**Top Customer:** CUST-1196
 
-Top Customer: CUST-1196
+Useful for loyalty programs and targeted marketing.
 
-📌 Useful for loyalty programs and targeted marketing.
+## Interactive Dashboard
 
-📊 Interactive Dashboard
-
-Sheet: Dashboard
-
+**Sheet:** Dashboard
 A consolidated dashboard combining all key insights:
+- KPI Cards:
+   - Total Revenue
+   - Top Store
+   - Best Month
+   - Top Customer
+- Store Contribution Chart
+- Promotion Impact Chart
+- Employee Type Contribution Chart
+- Monthly Sales Trend
 
-KPI Cards:
+## Slicers Used
+- Month
+- Store ID
+- Promotion Flag
 
-Total Revenue
+All visuals respond dynamically to slicer selections.
 
-Top Store
+## Tools & Techniques Used
+- Microsoft Excel
+- Pivot Tables & Pivot Charts
+- Advanced Excel formulas (IF, MONTH, TEXT)
+- Data modeling using helper columns
+- Slicers for interactivity
+- Dashboard layout & formatting
 
-Best Month
+## Key Business Insights
+- STO-04 is the highest revenue-generating store
+- Promotions drive the majority of sales revenue
+- Known employees contribute nearly all revenue
+- July is the peak sales month
+- Festive seasons show higher spending behavior
+- A small set of customers contribute disproportionately to revenue
 
-Top Customer
+## How to Use
 
-Store Contribution Chart
+1. Download the Excel file
+2. Enable content if prompted
+3. Navigate to the Dashboard sheet
+4. Use slicers to explore different scenarios
 
-Promotion Impact Chart
+## Future Enhancements
 
-Employee Type Contribution Chart
-
-Monthly Sales Trend
-
-🎛 Slicers Used
-
-Month
-
-Store ID
-
-Promotion Flag
-
-📌 All visuals respond dynamically to slicer selections.
-
-🛠 Tools & Techniques Used
-
-Microsoft Excel
-
-Pivot Tables & Pivot Charts
-
-Advanced Excel formulas (IF, MONTH, TEXT)
-
-Data modeling using helper columns
-
-Slicers for interactivity
-
-Dashboard layout & formatting
-
-📈 Key Business Insights
-
-STO-04 is the highest revenue-generating store
-
-Promotions drive the majority of sales revenue
-
-Known employees contribute nearly all revenue
-
-July is the peak sales month
-
-Festive seasons show higher spending behavior
-
-A small set of customers contribute disproportionately to revenue
-
-🚀 How to Use
-
-Download the Excel file
-
-Enable content if prompted
-
-Navigate to the Dashboard sheet
-
-Use slicers to explore different scenarios
-
-📌 Future Enhancements
-
-Profit & margin analysis
-
-RFM customer segmentation
-
-Power Query automation
-
-Migration to Power BI
+- Profit & margin analysis
+- RFM customer segmentation
+- Power Query automation
+- Migration to Power BI
