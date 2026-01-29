@@ -69,9 +69,9 @@ Indicates that tracked employees drive most revenue.
 
 **Sheet:** promo vs noprom
 
-Category	       &nbsp;     Revenue
-Promoted	       &nbsp;     ₹259,620.3
-Not Promoted	   &nbsp;     ₹9,168.1
+**Category**	       &nbsp;&nbsp;&nbsp;&nbsp;     **Revenue**
+Promoted	       &nbsp;&nbsp;&nbsp;&nbsp;          ₹259,620.3
+Not Promoted	   &nbsp;&nbsp;&nbsp;&nbsp;           ₹9,168.1
 
 Strong evidence that promotions are a major revenue driver.
 
