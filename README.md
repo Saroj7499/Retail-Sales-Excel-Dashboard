@@ -57,9 +57,11 @@ Helps management identify high-performing locations.
 
 **Sheet:** Employee type
 
-Employee Type	          Revenue Share
-Known Employee	            ~96.7%
-Unknown Employee	          ~3.3%
+**Employee Type**	          **Revenue Share**
+
+Known Employee	                ~96.7%
+
+Unknown Employee	              ~3.3%
 
 Indicates that tracked employees drive most revenue.
 
