@@ -2,6 +2,7 @@
 
 ## Project Overview
 This project is an end-to-end Excel data analysis and dashboarding project built from raw retail transaction data.The objective was not just to create charts, but to think like a data analyst — cleaning data, engineering new columns, validating logic, and finally building insight-driven dashboards.
+
 The project evolved in multiple stages, starting from raw transaction tables to multiple analytical sheets and finally an interactive dashboard.
 
 ## Dataset Description
